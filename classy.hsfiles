@@ -89,7 +89,7 @@ main = defaultMain
 {-# START_FILE src/Main.hs #-}
 module Main where
 
-import           ClassyPrelude
+import ClassyPrelude
 
 main :: IO ()
 main =
@@ -98,7 +98,7 @@ main =
 {-# START_FILE src/DevMain.hs #-}
 module DevMain where
 
-import           ClassyPrelude
+import ClassyPrelude
 
 run :: IO ()
 run =
